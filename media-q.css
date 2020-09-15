@@ -1,0 +1,160 @@
+/* @media (min-width: 576px) {
+    .inners .teamBlocks .smallBlock .row .footer .aside .box .infoBlock .header-section {
+      max-width: 540px;
+      display: flex;
+      flex-wrap: wrap;
+    } */
+ @media screen and (min-width: 480px) {
+     .boxes {
+      max-width: 200px;
+      display: flex;
+      flex-wrap: wrap;
+    } 
+     .box{
+        max-width: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: black;
+    } 
+    .portfolio{
+        max-width: 200px;
+    
+        display: flex;
+        flex-wrap: wrap;
+    }
+} 
+
+@media only screen and (max-width: 480px){
+    .holder{
+        max-width: 300px;
+        margin: 50px auto;
+        text-align: center;
+    }
+    .infoBlock{
+        max-width: 300px;;
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+  }
+
+  @media only screen and (max-width: 480px){
+    .row{
+        max-width: 300px;;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .smallBlock{
+        text-align: center;
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  
+
+  @media only screen and (max-width: 480px){
+    .aside{
+        max-width: 300px;;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .txtAlign{
+        text-align: center;
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;
+    }
+    .row-aside{
+        max-width: 300px;;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px 0px 0px 0px;
+    }
+  }
+  @media only screen and (max-width: 480px){
+    .content-i{
+        max-width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px auto;
+
+    }
+    .input-column{
+        text-align: center;
+        margin: 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /* .input-column2{
+        text-align: center;
+        margin: 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        
+    } */
+    .button-f{
+        max-width: 300px;;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px auto;
+        
+    }
+  }
+
+  
+
+  @media only screen and (max-width: 480px){
+    .inners{
+        max-width: 300px;;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .inner-f-end{
+        max-width: 300px;;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+      
+    }
+    .inner-f-start{
+        max-width: 300px;;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0px 0px;
+       
+    }
+    .txtBlock{
+        text-align: center;
+        margin: 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        flex-direction: column;
+       
+    }
+  }
+
+  /* @media only screen and (max-width: 480px){
+    .navigationMenu{
+        max-width: 300px;;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .texts{
+        text-align: center;
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;
+    }
+  } */
+
+
+
+
+
+

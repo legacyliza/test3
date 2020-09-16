@@ -4,7 +4,7 @@
       display: flex;
       flex-wrap: wrap;
     } */
- @media screen and (min-width: 480px) {
+ /* @media screen and (min-width: 480px) {
      .boxes {
       max-width: 200px;
       display: flex;
@@ -22,7 +22,7 @@
         display: flex;
         flex-wrap: wrap;
     }
-} 
+}  */
 
 @media only screen and (max-width: 480px){
     .holder{
@@ -51,6 +51,21 @@
         justify-content: center;
     }
   }
+
+  @media only screen and (max-width: 480px){
+    .boxes{
+        max-width: 300px;
+        display: flex;
+        
+        flex-wrap: wrap;
+    }
+    .box{
+        max-width: 300px;;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px auto;
+    }
+  }
   
 
   @media only screen and (max-width: 480px){
@@ -58,6 +73,7 @@
         max-width: 300px;;
         display: flex;
         flex-wrap: wrap;
+        margin: 0px auto;
     }
     .txtAlign{
         text-align: center;
@@ -100,8 +116,7 @@
         max-width: 300px;;
         display: flex;
         flex-wrap: wrap;
-        margin: 0px auto;
-        
+        margin: 0px auto;    
     }
   }
 
@@ -139,11 +154,12 @@
     }
   }
 
-  /* @media only screen and (max-width: 480px){
+  @media only screen and (max-width: 480px){
     .navigationMenu{
         max-width: 300px;;
         display: flex;
         flex-wrap: wrap;
+        text-align: center;
     }
     .texts{
         text-align: center;
@@ -151,7 +167,11 @@
         display: flex;
         justify-content: center;
     }
-  } */
+    .logo{
+        max-width: 300px;
+        max-height: 200px;
+    }
+  }
 
 
 
